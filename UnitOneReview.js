@@ -14,14 +14,14 @@ let isTheMusicIndustry = True
 */
 
 //CODE HERE
-const codingLanguage = ['python', 'JavaScript', 'C++', 'SQL']
+const codingLanguages = ['python', 'JavaScript', 'C++', 'SQL']
 
 /* 
     Access the 3rd element of the 'codingLanguage' array.
 */
 
 //CODE HERE
-
+console.log(codingLanguages[2])
 
 /*
     Copy the array using one of the array methods, and call it 'codingLanguage2.'
