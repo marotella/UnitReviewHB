@@ -14,7 +14,7 @@ let isTheMusicIndustry = True
 */
 
 //CODE HERE
-
+const codingLanguage = ['python', 'JavaScript', 'C++', 'SQL']
 
 /* 
     Access the 3rd element of the 'codingLanguage' array.
