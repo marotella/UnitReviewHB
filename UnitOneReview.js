@@ -104,13 +104,20 @@ let score = 83;
 */
 
 //CODE HERE
-
-
-
+if(score <= 10){
+    console.log("failed")
+}else if (score > 10 && score < 41){
+    console.log("The grade is C")
+}else if (score > 40 && score < 71){
+    console.log("The grade is B")
+} else {
+    console.log("The grade is A")
+}
 // ***** For Loop ***** //
 /* 
     Discuss the for loop syntax.
 */
+// set a variable, set a condition, set how you want the variable to change 
 
 // !!! Don't edit the code below !!! //
 let price = [10, 5, 6];
@@ -121,8 +128,11 @@ let price = [10, 5, 6];
 */
 
 //CODE HERE
-
-
+let totalPrice = 0
+for (let i =0; i<price.length; i++){
+    total += price[i]
+}
+console.log(totalPrice) 
 
 /* 
     Using the 'totalPrice,' find the average of 'price.'
