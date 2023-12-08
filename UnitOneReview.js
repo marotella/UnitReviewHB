@@ -85,7 +85,11 @@ let num = 11;
 */
 
 //CODE HERE
-
+if (num % 2 == 0){
+    console.log('num is an even number')
+}else{
+    console.log("num is not an even number.")
+}
 
 // !!! Don't edit the code below !!! //
 let score = 83;
