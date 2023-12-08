@@ -53,21 +53,21 @@ instruments.pop()
 */
 
 //CODE HERE
-
+instruments.shift()
 
 /* 
     Use a built-in array function to add 'guitar' to the front of the instruments array
 */
 
 //CODE HERE
-
+instruments.unshift("guitar")
 
 /* 
     Use a built-in array function to replace 'xylophone' in the instruments array to 'glockenspiel.'
 */
 
 //CODE HERE
-
+instruments.splice(2,1, 'glockenspiel')
 
 
 // ***** if-else ***** //
