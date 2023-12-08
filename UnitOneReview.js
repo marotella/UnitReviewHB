@@ -6,7 +6,7 @@
 //CODE HERE
 let artistName = "Taylor Swift"
 let eras = 10
-let isTheMusicIndustry = True
+let isTheMusicIndustry = true
 
 // ***** Array ***** //
 /*
@@ -28,14 +28,14 @@ console.log(codingLanguages[2])
 */
 
 //CODE HERE
-
+let codingLanguages2 = codingLanguages.slice(0)
 
 /* 
     Add another coding language to the codingLanguage2 array.
 */
 
 //CODE HERE
-
+codingLanguages2.push("Go")
 
 // !!! Don't edit the code below !!! //
 let instruments = ['piano', 'trumpet', 'xylophone', 'flute', 'cello']
@@ -46,7 +46,7 @@ let instruments = ['piano', 'trumpet', 'xylophone', 'flute', 'cello']
 */
 
 //CODE HERE
-
+instruments.pop()
 
 /* 
     Use a built-in array function to remove 'piano' from the instruments array
